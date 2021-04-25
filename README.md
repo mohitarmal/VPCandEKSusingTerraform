@@ -15,5 +15,6 @@ Steps:
 4)terraform plan -->used to create an execution plan
 5)terraform apply
 6)verify whether resources are created on aws or not.
+7)terraform destroy --> to destroy resource created earlier
 
 
