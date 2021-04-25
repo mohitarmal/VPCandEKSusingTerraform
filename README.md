@@ -1,6 +1,8 @@
 # VPCandSubnetcreationusingTerraform
 Create VPC,2 public and 2 private subnets on AWS using Terraform
 
+Recommended version:--> Terraform v0.12.17
+
 Platform:- Linux
 Required tools:
   1)awscli -->https://linuxtechlab.com/easy-way-to-install-aws-cli-on-linux/
