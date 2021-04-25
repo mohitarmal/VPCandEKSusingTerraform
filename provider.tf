@@ -17,7 +17,7 @@ resource "aws_subnet" "demopublic" {
   count = 2
   
   cidr_block        = "10.160.6${count.index}.0/24"
-  vpc_id            = "${aws_vpc.demo.id}"
+  vpc_id            = aws_vpc.demo.id
   map_public_ip_on_launch = "true"
 
   tags = {
@@ -29,7 +29,7 @@ resource "aws_subnet" "demoprivate" {
   count = 2
 
   cidr_block        = "10.160.${count.index}.0/24"
-  vpc_id            = "${aws_vpc.demo.id}"
+  vpc_id            = aws_vpc.demo.id
 
   tags = {
     Name = "PrivateSubnet${count.index}",
