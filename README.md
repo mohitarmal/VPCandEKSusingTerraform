@@ -10,7 +10,7 @@ Required tools:
 
 Steps:
 1)Create IAM role using aws console and save credentials.
-2)Edit provider.tf file and update credentials.
+2)Edit provider.tf file and update credentials and region.
 3)terraform init -->to initialize a working directory containing Terraform configuration files
 4)terraform plan -->used to create an execution plan
 5)terraform apply
